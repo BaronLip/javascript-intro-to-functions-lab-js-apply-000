@@ -1,13 +1,13 @@
 // 1) whisper(string) receives one argument and returns it in all lowercase:
 
-const whisper = function logWhisper(string) {
+const whisper = function whisper(string) {
   return console.log(string.toLowerCase())
 }
 
 
 // 2) logShout(string) calls console.log() its one argument in all caps:
 
-const shout = function logShout(string) {
+const shout = function shout(string) {
   return console.log(string.toUpperCase())
 }
 
