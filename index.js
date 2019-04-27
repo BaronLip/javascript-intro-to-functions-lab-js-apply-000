@@ -7,7 +7,7 @@ const whisper = function logWhisper(string) {
 
 // 2) logShout(string) calls console.log() its one argument in all caps:
 
-const Shout = function shout(string) {
+const shout = function logShout(string) {
   return console.log(string.toUpperCase())
 }
 
@@ -19,7 +19,7 @@ console.log(whisper("Hello"));
 
 // 4) Log sayHiToGrandma(string) returns "I can't hear you!" if "string" is lowercase.
 
-const sayHiToGrandma = function sayHiToGrandma(string) {
+const sayHiToGrandma = function logSayHiToGrandma(string) {
   if (string.toLowerCase === lowercase ) {
     return "I can't hear you!"
   } else if (string.toUpperCase === uppercase) {
