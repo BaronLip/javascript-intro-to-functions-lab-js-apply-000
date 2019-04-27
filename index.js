@@ -1,6 +1,10 @@
-const shout = function (string) {
-  console.log(string.toLowerCase())
-}
+function shout(string)
 
-shout("hello")
+
+
+// const shout = function (string) {
+//   console.log(string.toLowerCase())
+// }
+
+// shout("hello")
 
