@@ -2,7 +2,7 @@ const logShout = function shout(string) {
   return string.toUpperCase()
 }
 
-// 1) 
+1) whisper(string) receives one argument and returns it in all lowercase:
 function whisper(string) {
   return string.toLowerCase
 }
