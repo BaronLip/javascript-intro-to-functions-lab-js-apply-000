@@ -62,7 +62,11 @@ logWhisper("HELLO")
 //     expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
 //   })
 
-
+function sayHiToGrandma(string) {
+  if (string === string.toLowerCase() {
+    return "I can't hear you!"
+  })
+}
 
 //   it('returns "YES INDEED!" if `string` is uppercase', function() {
 //     expect(sayHiToGrandma('HELLO')).toEqual("YES INDEED!")
@@ -72,3 +76,6 @@ logWhisper("HELLO")
 //     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
 //   })
 // })
+
+
+
