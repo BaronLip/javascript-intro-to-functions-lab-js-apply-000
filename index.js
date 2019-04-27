@@ -1,6 +1,4 @@
-const logShout = function shout(string) {
-  return string.toUpperCase()
-}
+
 
 1) whisper(string) receives one argument and returns it in all lowercase:
 function whisper(string) {
@@ -8,8 +6,10 @@ function whisper(string) {
 }
 
 
-// 2) Log shout
-console.log(logShout("I'm shouting"))
+2) logShout(string) calls console.log() its one argument in all caps:
+const logShout = function shout(string) {
+  return console.log(string.toUpperCase())
+}
 
 
 // 3) Log whisper
