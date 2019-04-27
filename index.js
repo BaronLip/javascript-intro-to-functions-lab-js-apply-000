@@ -1,4 +1,4 @@
-function shout(string) {
+const logShout = function shout(string) {
   return string.toUpperCase()
 }
 
@@ -9,11 +9,11 @@ function whisper(string) {
 
 
 // 2) Log shout
-console.log(shout("I'm shouting"))
+console.log(logShout("I'm shouting"))
 
 
 // 3) Log whisper
-console.log(whisper("I'm whispering"))
+console.log(whisper("Hello"))
 
 
 // 4) Log sayHiToGrandma(string) returns "I can't hear you!" if "string" is lowercase.
