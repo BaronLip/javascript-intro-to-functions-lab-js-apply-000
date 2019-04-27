@@ -9,7 +9,6 @@ const shout = function shout(string) {
 }
 
 
-
 console.log(whisper("HELLO"));
 
 
