@@ -1,10 +1,10 @@
-const whisper = function logWhisper(string) {
+const whisper = function whisper(string) {
   return console.log(string.toLowerCase())
 }
 
 
 
-const shout = function logShout(string) {
+const shout = function shout(string) {
   return console.log(string.toUpperCase())
 }
 
