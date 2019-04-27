@@ -1,22 +1,24 @@
+// 1) whisper(string) receives one argument and returns it in all lowercase:
 
-
-1) whisper(string) receives one argument and returns it in all lowercase:
-function whisper(string) {
-  return string.toLowerCase
+function logWhisper(string) {
+  return console.log(string.toLowerCase())
 }
 
 
-2) logShout(string) calls console.log() its one argument in all caps:
+// 2) logShout(string) calls console.log() its one argument in all caps:
+
 const logShout = function shout(string) {
   return console.log(string.toUpperCase())
 }
 
 
-// 3) Log whisper
-console.log(whisper("Hello"))
+// 3) logWhisper(string) calls console.log() its one argument in all lowercase:
+
+console.log(whisper("Hello"));
 
 
 // 4) Log sayHiToGrandma(string) returns "I can't hear you!" if "string" is lowercase.
+
 const sayHiToGrandma = function sayHiToGrandma(string) {
   if (string.toLowerCase === lowercase ) {
     return "I can't hear you!"
